@@ -7,6 +7,7 @@ namespace Identity_Api.ViewModels
         [Required]
         public string Email { get; set; }
         [Required]
+        [EmailAddress]
         public string Password { get; set; }
         public bool RememberMe { get; set; }
     }
